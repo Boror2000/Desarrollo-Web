@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Brandon CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        h1, h2, h3 {
+            margin-bottom: 10px;
+        }
+        p {
+            margin: 5px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <img src="C:\Users\PC\Pictures\foto.jpg " width="200" height="200" alt="Descripción de la imagen">
+        <h1>Brandon Fernando Boror Mayen</h1>
+        <p>Email: bbororm@miumg.edu.gt</p>
+        <p>Teléfono: 54727937</p>
+        <p>Carné: 9490-18-6287</p>
+    </div>
+
+    <div class="section">
+        <h2></h2>
+        <h3>Formación Acdemica</h3>
+        <p>2018-Actualidad   Decimo semestre  Ingenieria en sistemas de la información 
+           <br/> Universidad Mariano Galvez
+        </p>
+        <p>2016-2017    Bachiller en ciencias y letras con orientación en turismo 
+            <br/> Instituto de Turismo y Aviación
+         </p>
+         <p>2013-2015     Básicos 
+            <br/> Instituto de Turismo y Aviación 
+         </p>
+
+         <table border="1"> <!-- "border" es un atributo opcional para agregar bordes a la tabla -->
+            <tr>
+                <th>Cursos Aprobados</th>
+                
+            </tr>
+            <tr>
+                <td>Desarrollo humanos y profesional</td>
+            </tr>
+            <tr>
+                <td>Metodología de la investigación</td>
+            </tr>
+            <tr>
+                <td>Contabilidad I</td>
+            </tr>
+            <tr>
+                <td>Introducción a los sistemas de computo</td>
+            </tr>
+            <tr>
+                <td>Lógica de sistemas</td>
+            </tr>
+            <tr>
+                <td>Precalculo</td>
+            </tr>
+            <tr>
+                <td>Algebra Lineal</td>
+            </tr>
+            <tr>
+                <td>Algoritmos</td>
+            </tr>
+            <tr>
+                <td>Matemática Discreta</td>
+            </tr>
+            <tr>
+                <td>Contabilidad II</td>
+            </tr>
+            <tr>
+                <td>Fisica I</td>
+            </tr>
+            <tr>
+                <td>Programación I</td>
+            </tr>
+            <tr>
+                <td>Calculo I</td>
+            </tr>
+            <tr>
+                <td>Proceso Administrativo</td>
+            </tr>
+            <tr>
+                <td>Derecho Informatico</td>
+            </tr>
+            <tr>
+                <td>Microeconomia</td>
+            </tr>
+            <tr>
+                <td>Programación II</td>
+            </tr>
+            <tr>
+                <td>Calculo II</td>
+            </tr>
+            <tr>
+                <td>Estadistica I</td>
+            </tr>
+            <tr>
+                <td>Fisica II</td>
+            </tr>
+            <tr>
+                <td>Metodos numericos</td>
+            </tr>
+            <tr>
+                <td>Programación III</td>
+            </tr>
+            <tr>
+                <td>Emprendedores de negocios </td>
+            </tr>
+            <tr>
+                <td>Electronica Analogica</td>
+            </tr>
+            <tr>
+                <td>Estadistica II</td>
+            </tr>
+            <tr>
+                <td>Investigación de operaciones</td>
+            </tr>
+            <tr>
+                <td>Base de datos I</td>
+            </tr>
+            <tr>
+                <td>Automatas y lenguajes formales</td>
+            </tr>
+            <tr>
+                <td>Sistemas operativos I</td>
+            </tr>
+            <tr>
+                <td>Electronica Digital</td>
+            </tr>
+            <tr>
+                <td>Bases de Datos II</td>
+            </tr>
+            <tr>
+                <td>Analisis de sistemas I</td>
+            </tr>
+            <tr>
+                <td>Sistemas operativos II</td>
+            </tr>
+            <tr>
+                <td>Arquitectura de computadoras I</td>
+            </tr>
+            <tr>
+                <td>Compiladores</td>
+            </tr>
+            <tr>
+                <td>Redes de computadoras I</td>
+            </tr>
+            <tr>
+                <td>Etica Profesional</td>
+            </tr>
+            <tr>
+                <td>Arquitectura de computadoras II</td>
+            </tr>
+            <tr>
+                <td>
+                    Administración de tecnologías de la información
+                </td>
+            </tr>
+            <tr>
+                <td>Ingenieria de software</td>
+            </tr>
+            <tr>
+                <td>Proyecto de graduación I</td>
+            </tr>
+            <tr>
+                <td>Redes de computadoras II</td>
+            </tr>
+            <tr>
+                <td>Inteligencia Artificial</td>
+            </tr>
+            <tr>
+                <td>Telecomunicaciones</td>
+            </tr>
+            <tr>
+                <td>Seminario de tecnologías de ionformación</td>
+            </tr>
+            <tr>
+                <td>Aseguramiento de la calidad de software</td>
+            </tr>
+            <tr>
+                <td>Seguridad y auditoria de sistemas</td>
+            </tr>
+                      
+</table>    
+
+    <div class="section">
+        <h2>Competencias</h2>
+        <ul>
+            <li>Responsable</li>
+            <li>Proactiva</li>
+            <li>Respetuosa</li>
+           
+        </ul>
+    </div>
+
+
+</body>
+</html>
