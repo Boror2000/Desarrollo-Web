@@ -1,0 +1,68 @@
+Api 2
+POST /api/registro/ciudadanos
+Validaciones necesarias 
+nombres: Debe ser una cadena de texto no vacía.
+apellidos: Debe ser una cadena de texto no vacía.
+DPI: Debe ser una cadena de 13 dígitos numéricos.
+fechaNacimiento: Debe estar en formato 'AAAA-MM-DD' y representar una fecha válida.
+estadoCivil: Debe ser uno de los siguientes valores: "soltero", "casado", "divorciado", "viudo".
+codigo api
+{
+  "nombres": "Juan",
+  "apellidos": "Pérez",
+  "DPI": "1234567890123",
+  "fechaNacimiento": "1990-05-15",
+  "estadoCivil": "soltero"
+}
+
+
+Api 3
+JSON
+PUT /api/registro/ciudadanos/:dpi
+
+bash
+/api/registro/ciudadanos/1234567890123
+
+Cuerpo en JSON
+{
+  "nombres": "Juan Carlos",
+  "apellidos": "Pérez Gómez",
+  "fechaNacimiento": "1990-05-15",
+  "estadoCivil": "casado"
+}
+
+
+API 4
+DELETE /api/registro/ciudadanos/:dpi
+
+/api/registro/ciudadanos/1234567890123
+
+
+{
+  "message": "Ciudadano eliminado exitosamente por defunción",
+  "data": {
+    "DPI": "1234567890123",
+    "estado": "fallecido"
+  }
+}
+
+
+Api 5
+
+GET /api/registro/ciudadanos/:dpi
+
+
+/api/registro/ciudadanos/1234567890123
+
+
+{
+  "nombres": "Juan Carlos",
+  "apellidos": "Pérez Gómez",
+  "DPI": "1234567890123",
+  "fechaNacimiento": "1990-05-15",
+  "estadoCivil": "casado",
+  "estado": "vivo"
+}
+
+
+
